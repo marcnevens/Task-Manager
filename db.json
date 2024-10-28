@@ -1,0 +1,62 @@
+{
+    "todos": [
+        {
+            "id": 1,
+            "title": "Buy Groceries",
+            "description": "Go to the store and buy some groceries",
+            "completed": false,
+            "duedate": "2024-08-30",
+            "userId": 1,
+            "categoryId": 2
+        },
+        {
+            "id": 2,
+            "title": "Finish project Report",
+            "description": "Complete the report for Quarterly project",
+            "completed": true,
+            "duedate": "2024-08-24",
+            "userId": 2,
+            "categoryId": 1
+        },
+        {
+            "id": 3,
+            "title": "Book dentist appointment",
+            "description": "Call to schedule a dentist appointment",
+            "completed": false,
+            "duedate": "2024-09-05",
+            "userId": 1,
+            "categoryId": 3
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john@example.com"
+        },
+        {
+            "id": 2,
+            "name": "Karen Doe",
+            "email": "karen@example.com"
+        },
+        {
+            "id": 3,
+            "name": "Bert Doe",
+            "email": "bert@example.com"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Work"
+        },
+        {
+            "id": 2,
+            "name": "Personal"
+        },
+        {
+            "id": 3,
+            "name": "Health"
+        }
+    ]
+}
